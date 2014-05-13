@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90EDA2D3192275EC00D02E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2D2192275EC00D02E62 /* Foundation.framework */; };
+		90EDA2D5192275EC00D02E62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2D4192275EC00D02E62 /* CoreGraphics.framework */; };
+		90EDA2D7192275EC00D02E62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2D6192275EC00D02E62 /* UIKit.framework */; };
+		90EDA2DD192275EC00D02E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA2DB192275EC00D02E62 /* InfoPlist.strings */; };
+		90EDA2DF192275EC00D02E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDA2DE192275EC00D02E62 /* main.m */; };
+		90EDA2E3192275EC00D02E62 /* ZVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDA2E2192275EC00D02E62 /* ZVAppDelegate.m */; };
+		90EDA2E6192275EC00D02E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA2E4192275EC00D02E62 /* Main.storyboard */; };
+		90EDA2E9192275EC00D02E62 /* ZVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDA2E8192275EC00D02E62 /* ZVViewController.m */; };
+		90EDA2EB192275EC00D02E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA2EA192275EC00D02E62 /* Images.xcassets */; };
+		90EDA2F2192275EC00D02E62 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2F1192275EC00D02E62 /* XCTest.framework */; };
+		90EDA2F3192275EC00D02E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2D2192275EC00D02E62 /* Foundation.framework */; };
+		90EDA2F4192275EC00D02E62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDA2D6192275EC00D02E62 /* UIKit.framework */; };
+		90EDA2FC192275EC00D02E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA2FA192275EC00D02E62 /* InfoPlist.strings */; };
+		90EDA2FE192275EC00D02E62 /* iOSDinerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDA2FD192275EC00D02E62 /* iOSDinerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EDA2F5192275EC00D02E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EDA2C7192275EC00D02E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EDA2CE192275EC00D02E62;
+			remoteInfo = iOSDiner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90EDA2CF192275EC00D02E62 /* iOSDiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EDA2D2192275EC00D02E62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90EDA2D4192275EC00D02E62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90EDA2D6192275EC00D02E62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90EDA2DA192275EC00D02E62 /* iOSDiner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSDiner-Info.plist"; sourceTree = "<group>"; };
+		90EDA2DC192275EC00D02E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90EDA2DE192275EC00D02E62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90EDA2E0192275EC00D02E62 /* iOSDiner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSDiner-Prefix.pch"; sourceTree = "<group>"; };
+		90EDA2E1192275EC00D02E62 /* ZVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZVAppDelegate.h; sourceTree = "<group>"; };
+		90EDA2E2192275EC00D02E62 /* ZVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVAppDelegate.m; sourceTree = "<group>"; };
+		90EDA2E5192275EC00D02E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90EDA2E7192275EC00D02E62 /* ZVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZVViewController.h; sourceTree = "<group>"; };
+		90EDA2E8192275EC00D02E62 /* ZVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVViewController.m; sourceTree = "<group>"; };
+		90EDA2EA192275EC00D02E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90EDA2F0192275EC00D02E62 /* iOSDinerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDinerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EDA2F1192275EC00D02E62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90EDA2F9192275EC00D02E62 /* iOSDinerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSDinerTests-Info.plist"; sourceTree = "<group>"; };
+		90EDA2FB192275EC00D02E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90EDA2FD192275EC00D02E62 /* iOSDinerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDinerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90EDA2CC192275EC00D02E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2D5192275EC00D02E62 /* CoreGraphics.framework in Frameworks */,
+				90EDA2D7192275EC00D02E62 /* UIKit.framework in Frameworks */,
+				90EDA2D3192275EC00D02E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EDA2ED192275EC00D02E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2F2192275EC00D02E62 /* XCTest.framework in Frameworks */,
+				90EDA2F4192275EC00D02E62 /* UIKit.framework in Frameworks */,
+				90EDA2F3192275EC00D02E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90EDA2C6192275EC00D02E62 = {
+			isa = PBXGroup;
+			children = (
+				90EDA2D8192275EC00D02E62 /* iOSDiner */,
+				90EDA2F7192275EC00D02E62 /* iOSDinerTests */,
+				90EDA2D1192275EC00D02E62 /* Frameworks */,
+				90EDA2D0192275EC00D02E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90EDA2D0192275EC00D02E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2CF192275EC00D02E62 /* iOSDiner.app */,
+				90EDA2F0192275EC00D02E62 /* iOSDinerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90EDA2D1192275EC00D02E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2D2192275EC00D02E62 /* Foundation.framework */,
+				90EDA2D4192275EC00D02E62 /* CoreGraphics.framework */,
+				90EDA2D6192275EC00D02E62 /* UIKit.framework */,
+				90EDA2F1192275EC00D02E62 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90EDA2D8192275EC00D02E62 /* iOSDiner */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2E1192275EC00D02E62 /* ZVAppDelegate.h */,
+				90EDA2E2192275EC00D02E62 /* ZVAppDelegate.m */,
+				90EDA2E4192275EC00D02E62 /* Main.storyboard */,
+				90EDA2E7192275EC00D02E62 /* ZVViewController.h */,
+				90EDA2E8192275EC00D02E62 /* ZVViewController.m */,
+				90EDA2EA192275EC00D02E62 /* Images.xcassets */,
+				90EDA2D9192275EC00D02E62 /* Supporting Files */,
+			);
+			path = iOSDiner;
+			sourceTree = "<group>";
+		};
+		90EDA2D9192275EC00D02E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2DA192275EC00D02E62 /* iOSDiner-Info.plist */,
+				90EDA2DB192275EC00D02E62 /* InfoPlist.strings */,
+				90EDA2DE192275EC00D02E62 /* main.m */,
+				90EDA2E0192275EC00D02E62 /* iOSDiner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90EDA2F7192275EC00D02E62 /* iOSDinerTests */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2FD192275EC00D02E62 /* iOSDinerTests.m */,
+				90EDA2F8192275EC00D02E62 /* Supporting Files */,
+			);
+			path = iOSDinerTests;
+			sourceTree = "<group>";
+		};
+		90EDA2F8192275EC00D02E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90EDA2F9192275EC00D02E62 /* iOSDinerTests-Info.plist */,
+				90EDA2FA192275EC00D02E62 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90EDA2CE192275EC00D02E62 /* iOSDiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EDA301192275EC00D02E62 /* Build configuration list for PBXNativeTarget "iOSDiner" */;
+			buildPhases = (
+				90EDA2CB192275EC00D02E62 /* Sources */,
+				90EDA2CC192275EC00D02E62 /* Frameworks */,
+				90EDA2CD192275EC00D02E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDiner;
+			productName = iOSDiner;
+			productReference = 90EDA2CF192275EC00D02E62 /* iOSDiner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90EDA2EF192275EC00D02E62 /* iOSDinerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EDA304192275EC00D02E62 /* Build configuration list for PBXNativeTarget "iOSDinerTests" */;
+			buildPhases = (
+				90EDA2EC192275EC00D02E62 /* Sources */,
+				90EDA2ED192275EC00D02E62 /* Frameworks */,
+				90EDA2EE192275EC00D02E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EDA2F6192275EC00D02E62 /* PBXTargetDependency */,
+			);
+			name = iOSDinerTests;
+			productName = iOSDinerTests;
+			productReference = 90EDA2F0192275EC00D02E62 /* iOSDinerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90EDA2C7192275EC00D02E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zavteq, Inc";
+				TargetAttributes = {
+					90EDA2EF192275EC00D02E62 = {
+						TestTargetID = 90EDA2CE192275EC00D02E62;
+					};
+				};
+			};
+			buildConfigurationList = 90EDA2CA192275EC00D02E62 /* Build configuration list for PBXProject "iOSDiner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90EDA2C6192275EC00D02E62;
+			productRefGroup = 90EDA2D0192275EC00D02E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90EDA2CE192275EC00D02E62 /* iOSDiner */,
+				90EDA2EF192275EC00D02E62 /* iOSDinerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90EDA2CD192275EC00D02E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2EB192275EC00D02E62 /* Images.xcassets in Resources */,
+				90EDA2DD192275EC00D02E62 /* InfoPlist.strings in Resources */,
+				90EDA2E6192275EC00D02E62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EDA2EE192275EC00D02E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2FC192275EC00D02E62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90EDA2CB192275EC00D02E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2E3192275EC00D02E62 /* ZVAppDelegate.m in Sources */,
+				90EDA2DF192275EC00D02E62 /* main.m in Sources */,
+				90EDA2E9192275EC00D02E62 /* ZVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EDA2EC192275EC00D02E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EDA2FE192275EC00D02E62 /* iOSDinerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EDA2F6192275EC00D02E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EDA2CE192275EC00D02E62 /* iOSDiner */;
+			targetProxy = 90EDA2F5192275EC00D02E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90EDA2DB192275EC00D02E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EDA2DC192275EC00D02E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90EDA2E4192275EC00D02E62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EDA2E5192275EC00D02E62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90EDA2FA192275EC00D02E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EDA2FB192275EC00D02E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90EDA2FF192275EC00D02E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90EDA300192275EC00D02E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EDA302192275EC00D02E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSDiner/iOSDiner-Prefix.pch";
+				INFOPLIST_FILE = "iOSDiner/iOSDiner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90EDA303192275EC00D02E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSDiner/iOSDiner-Prefix.pch";
+				INFOPLIST_FILE = "iOSDiner/iOSDiner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90EDA305192275EC00D02E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSDiner.app/iOSDiner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSDiner/iOSDiner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSDinerTests/iOSDinerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		90EDA306192275EC00D02E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSDiner.app/iOSDiner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSDiner/iOSDiner-Prefix.pch";
+				INFOPLIST_FILE = "iOSDinerTests/iOSDinerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90EDA2CA192275EC00D02E62 /* Build configuration list for PBXProject "iOSDiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EDA2FF192275EC00D02E62 /* Debug */,
+				90EDA300192275EC00D02E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EDA301192275EC00D02E62 /* Build configuration list for PBXNativeTarget "iOSDiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EDA302192275EC00D02E62 /* Debug */,
+				90EDA303192275EC00D02E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90EDA304192275EC00D02E62 /* Build configuration list for PBXNativeTarget "iOSDinerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EDA305192275EC00D02E62 /* Debug */,
+				90EDA306192275EC00D02E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90EDA2C7192275EC00D02E62 /* Project object */;
+}
